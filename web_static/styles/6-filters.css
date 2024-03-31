@@ -1,0 +1,39 @@
+.popover{
+    display: none;
+    position: relative;
+    background-color: #FAFAFA;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    list-style-type: none;
+    margin-left: -40px;
+
+}
+.locations .popover{
+    height: 180px;
+
+}
+.amenities .popover{
+    margin-left: -50px;
+    height: 180px;
+    position: relative;
+    justify-content:center;
+    align-items: center;
+}
+.amenities .popover li{
+    margin-top:15px;
+}
+.popover li{
+    list-style-type: none;
+}
+.locations:hover .popover {
+    display: block;
+  }
+  .amenities:hover .popover,
+  .amenities:hover .popover li {
+    display: block;
+  }
+  .popover h2 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
